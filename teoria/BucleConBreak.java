@@ -15,4 +15,8 @@ public class BucleConBreak {
         }
         System.out.println("Es numero primo " + posibleNumeroPrimo + "? " + !resultado);
     }
+    
+    //public static void boolean esNumeroPrimo ( long numero) {
+	
+	//}
 }
