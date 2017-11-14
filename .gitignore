@@ -1,1 +1,9 @@
+#ignoramos los archivos class
 *.class
+
+#ignoramos archivos temporales
+*~
+*.swp
+
+#ignoramos la documentacion
+*doc/
