@@ -6,4 +6,4 @@
 *.swp
 
 #ignoramos la documentacion
-*/doc
+*.doc
