@@ -4,6 +4,8 @@
 #ignoramos archivos temporales
 *~
 *.swp
+*.txt
 
 #ignoramos la documentacion
 */doc
+
