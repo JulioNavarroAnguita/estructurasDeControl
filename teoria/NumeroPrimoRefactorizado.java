@@ -1,5 +1,5 @@
 
-public class NumeroPrimo {
+public class NumeroPrimoRefactorizado {
 	public static void main (String[] args) {
 	
 		long posibleNumeroPrimo = 7;
@@ -17,20 +17,20 @@ public class NumeroPrimo {
 			System.out.println(posibleNumeroPrimo + " es compuesto? " + compuesto);	
 
 	}
+
 	public static boolean verificarDivisibilidad2o3o5 (long numero) {
-		boolean resultado = numero % 2 == 0 || numero % 3 == 0 || numero % 5 == 0;
-		return resultado;
+		return numero % 2 == 0 || numero % 3 == 0 || numero % 5 == 0;
 	}
+
 	public static int valorEnteroRaizCuadrada (long numero) {
 		return (int) Math.sqrt(numero);
 	}
+
 	public static boolean esNumeroPrimo (long numero) {
-		
 		boolean resultado = false;
-		
 		for (long divisor = 7 ; divisor < numero / 2 ; divisor++ ) {
             resultado = numero % divisor == 0;
-            if ( resultado ) {
+            if (resultado) {
 				System.out.println("divisor" + divisor);
                 break;
             } 
