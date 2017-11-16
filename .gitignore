@@ -7,5 +7,5 @@
 *.txt
 
 #ignoramos la documentacion
-*doc/
+*/doc
 
