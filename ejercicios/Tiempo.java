@@ -10,6 +10,7 @@ public class Tiempo {
 			System.out.println("Hora no valida");
 			return;
 		}
+		
 		System.out.println("Introduce los minutos");
 		int minutos = in.nextInt();
 		if(minutos < 0 || minutos > 59){
